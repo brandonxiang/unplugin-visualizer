@@ -1,6 +1,6 @@
 {
   "name": "unplugin-visualizer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a bundle visulizer for vite/webpack/rollup",
   "keywords": [
     "unplugin",
@@ -61,6 +61,7 @@
     "play": "npm -C playground run build",
     "play:webpack": "npm -C playground-webpack run build",
     "prepublishOnly": "npm run build",
+    "bump": "changeset version & changeset tag & git push --follow-tags",
     "release": "bumpp --commit --push --tag && pnpm publish",
     "start": "esno src/index.ts",
     "test": "jest",
