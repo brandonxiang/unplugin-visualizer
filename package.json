@@ -1,6 +1,6 @@
 {
   "name": "unplugin-visualizer",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "a bundle visulizer for vite/webpack/rollup",
   "keywords": [
     "unplugin",
