@@ -66,6 +66,9 @@
     "test:update": "jest -u",
     "release": "release-it"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {
     "source-map-explorer": "^2.5.2",
     "unplugin": "^0.6.1"
