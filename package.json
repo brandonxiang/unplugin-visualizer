@@ -1,6 +1,6 @@
 {
   "name": "unplugin-visualizer",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "a bundle visulizer for vite/webpack/rollup",
   "keywords": [
     "unplugin",
@@ -61,11 +61,10 @@
     "play": "npm -C playground run build",
     "play:webpack": "npm -C playground-webpack run build",
     "prepublishOnly": "npm run build",
-    "bump": "changeset version & changeset tag & git push --follow-tags",
-    "release": "bumpp --commit --push --tag && pnpm publish",
     "start": "esno src/index.ts",
     "test": "jest",
-    "test:update": "jest -u"
+    "test:update": "jest -u",
+    "release": "release-it"
   },
   "dependencies": {
     "source-map-explorer": "^2.5.2",
@@ -73,10 +72,9 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.20.2",
-    "@changesets/cli": "^2.22.0",
+    "release-it": "^15.0.0",
     "@types/jest": "^27.4.1",
     "@types/node": "^17.0.23",
-    "bumpp": "^7.1.1",
     "eslint": "^8.13.0",
     "eslint-plugin-jest": "^26.1.4",
     "esno": "^0.14.1",
